@@ -157,12 +157,12 @@ img {
 }
 
 .hero-name {
-  font-size: clamp(30px, 4.0vw, 48px);
+  font-size: clamp(25px, 4.0vw, 40px);
   gap: 12px;
   line-height: 1.1;
   font-weight: 800;
   margin-bottom: 18px;
-  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .hero-desc {
