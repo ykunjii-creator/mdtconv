@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+  background: #f6f8fc;
+  color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.site-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 24px 60px;
+}
+
+.archive-header {
+  margin-bottom: 36px;
+}
+
+.back-home {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.archive-header h1 {
+  font-size: 52px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.archive-header p {
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.archive-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.archive-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 42px rgba(0, 0, 0, 0.12);
+}
+
+.archive-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.archive-text {
+  padding: 22px;
+}
+
+.archive-category {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.archive-text h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.archive-text p {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.archive-detail {
+  background: white;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+}
+
+.detail-image {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto 28px;
+  border-radius: 20px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+}
+
+.detail-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.detail-content p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #374151;
+  margin-bottom: 18px;
+}
+
+.archive-card {
+  position: relative; /* ⭐ 이거 중요 */
+}
+
+.status-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+
+  padding: 6px 12px;
+  border-radius: 999px;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.status-badge.ongoing {
+  background: rgba(255, 138, 158, 0.7);
+  color: white;
+}
+
+.status-badge.done {
+  background: rgba(173, 173, 173, 0.8);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .archive-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-header h1 {
+    font-size: 38px;
+  }
+}
