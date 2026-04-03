@@ -429,6 +429,9 @@ img {
     align-items: flex-start;
     border-radius: 16px 16px 0 0;
     padding: 16px;
+    display: flex;
+    align-items: stretch; /* 중요 */
+    gap: 12px;
   }
 
   .brand-name {
@@ -438,6 +441,7 @@ img {
   .nav-menu {
     flex-wrap: wrap;
     gap: 10px 14px;
+    font-size: 15px;
   }
 
   .hero-banner {
