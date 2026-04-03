@@ -7,6 +7,14 @@
     font-display: swap;
 }
 
+@font-face {
+  font-family: 'ZhouZiFangTi';
+  src: url('fonts/ZhouZiFangTi.ttf') format('truetype');
+  font-weight: 400;
+  font-weight: center;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +22,7 @@
 }
 
 body {
-  font-family: "NanumSquare", "SeoulHangang";
+  font-family: "NanumSquare", "ZhouZiFangTi";
   background: #f6f8fc;
   color: #1f2937;
 }
@@ -41,15 +49,20 @@ img {
 
 .back-home {
   display: inline-block;
+  font-size: 20px;
   margin-bottom: 16px;
-  color: #4f46e5;
   font-weight: 600;
+  color: #4b5563;
 }
 
-.archive-header h1 {
-  font-size: 52px;
+.back-home:hover {
+  color: #1d4ed8;
+}
+
+.archive-header h2 {
+  font-size: 30px;
   font-weight: 800;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .archive-header p {
@@ -86,18 +99,38 @@ img {
   padding: 22px;
 }
 
+.ch {
+  font-family: 'ZhouZiFangTi', serif;
+  font-size: 24px;
+  margin-bottom: 4px;
+  font-weight: 800;
+  line-height: 1.1;
+  display: inline-block;
+  transform: translateY(0.5px);
+}
+
+.cn {
+  font-family: 'ZhouZiFangTi', serif;
+  font-size: 36px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  line-height: 1.1;
+  display: inline-block;
+  transform: translateY(0.5px);
+}
+
 .archive-category {
   display: inline-block;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 700;
   color: #4f46e5;
   margin-bottom: 10px;
 }
 
 .archive-text h2 {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 800;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 .archive-text p {
@@ -165,9 +198,5 @@ img {
 @media (max-width: 768px) {
   .archive-grid {
     grid-template-columns: 1fr;
-  }
-
-  .archive-header h1 {
-    font-size: 38px;
   }
 }
