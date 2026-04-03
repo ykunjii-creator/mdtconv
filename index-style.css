@@ -157,7 +157,7 @@ img {
 }
 
 .hero-name {
-  font-size: clamp(30px, 4.0vw, 50px);
+  font-size: clamp(30px, 4.0vw, 48px);
   gap: 12px;
   line-height: 1.1;
   font-weight: 800;
