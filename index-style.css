@@ -46,19 +46,19 @@ img {
 }
 
 .insta-icon {
-  width: 35px;
-  height: 35px;
+  width: 48px;
+  height: 48px;
 }
 
 .naver-icon {
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
 
-  border-radius: 7.5px;
+  border-radius: 11px;
 
   box-shadow: 
-    0 0 0.7px 0.5px rgba(0, 0, 0, 0.05),
-    0 0 0.5px 0.3px rgba(0, 0, 0, 0.004);
+    0 0 2px 0.3px rgba(0, 0, 0, 0.1),
+    0 0 5px 0.3px rgba(0, 0, 0, 0.004);
 }
 
 .site-wrap {
@@ -100,7 +100,7 @@ img {
 }
 
 .brand-name {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 800;
   color: #1e3a8a;
   letter-spacing: -0.03em;
@@ -110,7 +110,7 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: #4b5563;
 }
@@ -396,7 +396,7 @@ img {
 @media (max-width: 1024px) {
   .nav-menu {
     gap: 14px;
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .info-grid,
@@ -432,7 +432,7 @@ img {
   }
 
   .brand-name {
-    font-size: 22px;
+    font-size: 30px;
   }
 
   .nav-menu {
