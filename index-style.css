@@ -337,7 +337,7 @@ img {
 }
 
 .ko {
-  display: block;
+  display: in-line;
   font-size: 1.35rem;
   color: #4b5563;
   margin-bottom: 4px;
@@ -346,10 +346,10 @@ img {
 }
 
 .ch {
-  display: block;
+  display: in-line;
   font-family: 'ZhouZiFangTi', serif;
   font-size: 1.15rem;
-  color: #6b7280;
+  color: #4b5563;
   margin-bottom: 4px;
   font-weight: 300;
   line-height: 1.4;
@@ -619,9 +619,14 @@ img {
   .program-item p,
   .history-card p,
   .contest-item,
-  .faq-item p {
+  .faq-item p,
+  .ko {
     font-size: 1rem;
   }
+
+.ch {
+  font-size: 0.9rem;
+}
 
   .program-item h3,
   .history-card h3,
