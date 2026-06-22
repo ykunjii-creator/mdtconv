@@ -1,11 +1,19 @@
-# MDT conv Website
+<div align="center">
 
+<!-- logo -->
+<img src="img/web/logo-design.png" alt="경디공 로고" class="logo-img" />
+
+## 경디공
+
+</div>
+
+## 📝 Intro
 경상 X 디자인 X 공학 동아리 웹페이지입니다.
 
-## Tech
+## ⚙ Tech
 - HTML
 - CSS
 
-## Features
+## 💁‍♂️ Features
 - 반응형 UI
 - 브랜드형 랜딩 페이지
