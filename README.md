@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- logo -->
-<img src="img/web/logo-design.png" alt="경디공 로고" width="600"/>
+<img src="img/web/logo-design.png" alt="경디공 로고" width="60"/>
 
 <h1> 경디공 </h1>
 
