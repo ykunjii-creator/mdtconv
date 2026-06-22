@@ -9,6 +9,13 @@
 }
 
 @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('fonts/GmarketSansTTFMedium.ttf') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
   font-family: 'ZhouZiFangTi';
   src: url('fonts/ZhouZiFangTi.ttf') format('truetype');
   font-weight: 400;
