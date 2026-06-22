@@ -1,9 +1,9 @@
 <div align="center">
 
 <!-- logo -->
-<img src="img/web/logo-design.png" alt="경디공 로고" width="60"/>
+<img src="img/web/logo-design.png" alt="경디공 로고" width="50"/>
 
-<font size="7"><b>경디공</b></font>
+<font size="20"><b>경디공</b></font>
 
 </div>
 
