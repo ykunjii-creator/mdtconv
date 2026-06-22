@@ -3,7 +3,7 @@
 <!-- logo -->
 <img src="img/web/logo-design.png" alt="경디공 로고" width="60"/>
 
-<h1> 경디공 </h1>
+<font size="7"><b>경디공</b></font>
 
 </div>
 
